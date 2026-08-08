@@ -55,6 +55,17 @@
 
 /* RECIPE PAGE */
 
+.mainSection, .pageBanner, .pancakeInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.pancakeInfo{
+    justify-self: center;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
 .ingredients{
     background-color: bisque;
     padding: 20px;
@@ -63,20 +74,29 @@
     width: 200px;
 }
 
-.mainSection{
-    display: flex;
+.instructions{
+    padding: 20px;
+    background-color: grey;
 }
 
 li{
     margin-top: 10px;
-
 }
 
-article{
-    margin: 20px;
+.pageBanner{
+    width: 100%;
+    
+    background-color: grey;
+}
+
+.pageBanner img{
+    width: 500px;
 }
 
 /* UNIVERSAL */
+body{
+    margin: 20px;
+}
 a{
     text-decoration: none;
     color: black;
