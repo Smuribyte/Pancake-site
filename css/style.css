@@ -55,6 +55,14 @@
 
 /* RECIPE PAGE */
 
+.ingredients{
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    width: 200px;
+}
+
 .mainSection{
     display: flex;
 }
