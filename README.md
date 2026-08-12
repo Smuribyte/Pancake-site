@@ -15,4 +15,4 @@ A pancake recipe page where you are able to browse implemented pancake recipes.
 
 - add search bar
 - add recipe "tags"
-- sort recipe by Nationality
+- add difficulty categories
